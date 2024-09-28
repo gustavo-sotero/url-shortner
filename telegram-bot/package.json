@@ -1,0 +1,28 @@
+{
+	"name": "telegram-bot",
+	"version": "1.0.0",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"test": "jest",
+		"dev": "tsx watch ./src/index.ts",
+		"build": "tsc",
+		"start": "node ./dist/index.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"devDependencies": {
+		"@biomejs/biome": "1.9.2",
+		"@jest/globals": "^29.7.0",
+		"@types/jest": "^29.5.13",
+		"@types/node": "^22.7.4",
+		"tsx": "^4.19.1",
+		"typescript": "^5.6.2"
+	},
+	"dependencies": {
+		"dotenv": "^16.4.5",
+		"telegraf": "^4.16.3"
+	}
+}
