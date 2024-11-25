@@ -27,6 +27,7 @@ services:
       dockerfile: Dockerfile
     environment:
       - NODE_ENV=production
+      - TOKEN_BOT=TOKEN_HERE
     networks:
       - app-network
 
